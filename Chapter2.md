@@ -13,13 +13,13 @@ To start a new React project, we can use the `create-react-app` tool. This is a 
    npx create-react-app my-react-app
    ```
 3. Navigate into your project directory:
-  ```bash
-  cd my-react-app
-  ```
+   ```bash
+   cd my-react-app
+   ```
 4. Start the development server:
-  ```bash
-  npm run start
-  ```
+   ```bash
+   npm run start
+   ```
 
 # Why Not `create-react-app`?
 
