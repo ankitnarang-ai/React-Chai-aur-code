@@ -24,4 +24,3 @@
     <ChildComponent />
     <AnotherChildComponent />
   </>
-```
