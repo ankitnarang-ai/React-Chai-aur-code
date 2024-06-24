@@ -5,10 +5,30 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+  // const addValue = () =>{
+  //  if(count === 20) return ;
+
+  //  setCount(count + 1)
+  // }
+
+  // From 8th video : General Interview questio what if we write like this ?
+
   const addValue = () =>{
    if(count === 20) return ;
 
-   setCount(count + 1)
+  //  It update only one time : 
+  //  setCount(count + 1)
+  //  setCount(count + 1)
+  //  setCount(count + 1)
+  //  setCount(count + 1)
+
+  // For every time update we have to write like this : 
+  // set count accept call back as well
+  
+  setCount((prevCount) => prevCount + 1)
+  setCount((prevCount) => prevCount + 1)
+  setCount((prevCount) => prevCount + 1)
+  setCount((prevCount) => prevCount + 1)
   }
     
   const subValue = () => {
