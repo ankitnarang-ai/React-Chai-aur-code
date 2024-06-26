@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project involves creating a password generator application using React. The application will utilize various React hooks, such as `useCallback`, `useEffect`, and `useRef`, to optimize performance, manage side effects, and reference DOM elements.
+This project involves creating a password generator application using React. The application will utilize various React hooks, such as `useCallback`, `useEffect`, and `useRef`, to optimize performance and reference DOM elements.
 
 ## Features
 
