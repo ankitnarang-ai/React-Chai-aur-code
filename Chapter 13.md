@@ -27,4 +27,4 @@ Any component that needs access to the data from the context can use a Context C
 - **User Authentication**: Sharing user authentication status and data across different parts of the application.
 - **Language Preferences**: Managing and applying language preferences in a multi-lingual application.
 
-By leveraging the Context API, developers can create more scalable and maintainable React applications, simplifying state management and data sharing across components.
+## Create Project Dark and Light theme and see another way of implementing context API
